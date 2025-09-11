@@ -1,0 +1,12 @@
+p {
+  font-weight: 900;
+  color: yellowgreen;
+}
+div {
+  border: 1px solid red;
+  padding: 20px 30px 40px 50px;
+}
+p {
+  padding-top: 10px;
+  margin: 25px;
+}
