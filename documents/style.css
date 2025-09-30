@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 15%;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  height: 80px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.docplanner-logo {
+  width: 250px;
+  height: 35px;
+}
+.nav-content {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav-content li {
+  font-size: 15px;
+  font-weight: 400;
+  color: #888f8f;
+}
+.nav-content .active {
+  color: #00a892;
+}
+.nav-content li:hover {
+  color: #00a892;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  background: #fff;
+  box-shadow: 0 5px 10px #d3cfc9;
+  padding: 10px 0;
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 190px;
+}
+.dropdown-content ul {
+  list-style: none;
+  line-height: 30px;
+  width: 100%;
+}
+.dropdown-content ul li a {
+  text-decoration: none;
+  color: #888f8f;
+  padding: 12px 16px;
+  font-size: 13px;
+  width: 100%;
+}
+.dropdown-content ul li a:hover {
+  color: #00a892;
+  background-color: #888f8f14;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* hero section */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+.hero-section img {
+  width: 30px;
+  height: 30px;
+}
+.hero-section h1 {
+  font-family: "Work Sans";
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  margin: 1em 0;
+  color: #00a892;
+  font-size: 34px;
+}
+.hero-section .text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px;
+  color: #888f8f;
+}
+.hero-section .text:first-of-type {
+  margin-right: 30px;
+}
